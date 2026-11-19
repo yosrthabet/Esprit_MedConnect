@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: rendezvous-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rendezvous_db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8083
