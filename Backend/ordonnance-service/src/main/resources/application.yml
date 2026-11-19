@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ordonnance-service
+  mongodb:
+    uri: mongodb://localhost:27017/ordonnance_db
+server:
+  port: 8085
